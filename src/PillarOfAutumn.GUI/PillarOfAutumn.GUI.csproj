@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <Import Project="..\PillarOfAutumn.Direct.Shared\PillarOfAutumn.Direct.Shared.projitems" Label="Shared" />
+
+  <Import Project="..\PillarOfAutumn.Management.Shared\PillarOfAutumn.Management.Shared.projitems" Label="Shared" />
+
+</Project>

@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PillarOfAutumn.GUI", "PillarOfAutumn.GUI\PillarOfAutumn.GUI.csproj", "{329220AA-9030-49DD-A745-2D0D7F785DD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{7B14311D-16FD-4AD3-899A-F1D63CCE47E8}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PillarOfAutumn.Direct.Shared", "PillarOfAutumn.Direct.Shared\PillarOfAutumn.Direct.Shared.shproj", "{DA2CFDF1-D402-4CC4-97E9-2EE5F73DB7DB}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PillarOfAutumn.Management.Shared", "PillarOfAutumn.Management.Shared\PillarOfAutumn.Management.Shared.shproj", "{F5F60F0D-6FDF-4962-AA64-E095D29590FE}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		PillarOfAutumn.Direct.Shared\PillarOfAutumn.Direct.Shared.projitems*{329220aa-9030-49dd-a745-2d0d7f785dd2}*SharedItemsImports = 5
+		PillarOfAutumn.Management.Shared\PillarOfAutumn.Management.Shared.projitems*{329220aa-9030-49dd-a745-2d0d7f785dd2}*SharedItemsImports = 5
+		PillarOfAutumn.Direct.Shared\PillarOfAutumn.Direct.Shared.projitems*{da2cfdf1-d402-4cc4-97e9-2ee5f73db7db}*SharedItemsImports = 13
+		PillarOfAutumn.Management.Shared\PillarOfAutumn.Management.Shared.projitems*{f5f60f0d-6fdf-4962-aa64-e095d29590fe}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{329220AA-9030-49DD-A745-2D0D7F785DD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329220AA-9030-49DD-A745-2D0D7F785DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329220AA-9030-49DD-A745-2D0D7F785DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329220AA-9030-49DD-A745-2D0D7F785DD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA2CFDF1-D402-4CC4-97E9-2EE5F73DB7DB} = {7B14311D-16FD-4AD3-899A-F1D63CCE47E8}
+		{F5F60F0D-6FDF-4962-AA64-E095D29590FE} = {7B14311D-16FD-4AD3-899A-F1D63CCE47E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F21FD7E1-0FB9-491E-9B1E-A150A3EBC35F}
+	EndGlobalSection
+EndGlobal
